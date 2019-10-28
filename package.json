@@ -1,0 +1,28 @@
+{
+  "name": "tracks-chatbot",
+  "version": "1.0.0",
+  "description": "A test for tracks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blavejr/tracks-chatbot.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "Remigius Kalimba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blavejr/tracks-chatbot/issues"
+  },
+  "homepage": "https://github.com/blavejr/tracks-chatbot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "express": "^4.17.1"
+  }
+}
